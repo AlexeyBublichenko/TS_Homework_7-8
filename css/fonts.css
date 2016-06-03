@@ -1,0 +1,25 @@
+/*Homework_7_8-Alexey Bublichenko*/
+@font-face {
+	font-family: 'League Gothic';
+	src: url('../fonts/leaguegothiccyrillic-webfont.ttf') format('truetype');
+	src: url('../fonts/leaguegothiccyrillic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/leaguegothiccyrillic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans Light';
+	src: url('../fonts/OpenSans-Light-webfont.ttf') format('truetype');
+	src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/OpenSans-Light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans Extrabold';
+	src: url('../fonts/OpenSans-ExtraBold-webfont.ttf') format('truetype');
+	src: url('../fonts/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/OpenSans-ExtraBold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
