@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Homework_7_8-Alexey Bublichenko</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
@@ -16,7 +17,7 @@
 
 <!-- ==========================   HEADER   ========================== -->
 		<header class="header clearfix">
-			<div class="base-box">
+			<div class="base-box base-box--header">
 				<div class="brand">
 					<span class="br-title__part1">PINGBULL</span>
 					<span class="br-title__part2">ER</span>
@@ -45,17 +46,21 @@
 
 <!-- _______________________   slider   _______________________ -->
 			<section class="slider">
-				<div class="base-box">
-					<p class="slider__title">Lorem Ipsum Dolor</p>
-					<p class="slider__subtitle">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</p>
-					<p class="slider__text">Semper sollicitudin gravida eget, ves&shy;tibulum sit amet sapien. Nunc dignis&shy;sim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</p>
-					<img class="slider__image" src="img/image-phone.png" alt="Phone">
-					<a href="#" class="slider__arrow_left">
-						<img src="img/icon-arrow_left.png" title="Left" alt="Arrow_left">
-					</a>
-					<a href="#" class="slider__arrow_right">
-						<img src="img/icon-arrow_right.png" title="Right" alt="Arrow_right">
-					</a>
+				<a href="#" class="slider__arrow_left">
+					<img src="img/icon-arrow_left.png" title="Left" alt="Arrow_left">
+				</a>
+				<a href="#" class="slider__arrow_right">
+					<img src="img/icon-arrow_right.png" title="Right" alt="Arrow_right">
+				</a>
+				<div class="base-box base-box--slider">
+					<div class="slider-wrapper-text">
+						<p class="slider__title">Lorem Ipsum Dolor</p>
+						<p class="slider__subtitle">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</p>
+						<p class="slider__text">Semper sollicitudin gravida eget, ves&shy;tibulum sit amet sapien. Nunc dignis&shy;sim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</p>
+					</div>
+					<div class="slider-wrapper-image">
+						<img class="slider__image" src="img/image-phone.png" alt="Phone">
+					</div>
 					<ul class="slider-switch">
 						<li class="slider-switch__item">
 							<a href="#" class="slider-switch__link"></a>
@@ -79,19 +84,19 @@
 <!-- _______________________   about   _______________________ -->
 		<section class="about">
 			<div class="base-box base-box--about">
-				<div class="column-box">
+				<div class="column-box column-box--set_margin_column1">
 					<a href="#" class="column-box__icon column-box__icon--key"></a>
 					<p class="column-box__title">ABOUT OUR COMPANY</p>
 					<p class="column-box__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po&shy;suere. Pel&shy;lentesque vel lacus eget nisi convallis auctor. Nam </p>
 					<p><a href="#" class="column-box__button">READ MORE</a></p>
 				</div>
-				<div class="column-box">
+				<div class="column-box column-box--set_margin_column2">
 					<a href="#" class="column-box__icon column-box__icon--cloud"></a>
 					<p class="column-box__title">ABOUT OUR COMPANY</p>
 					<p class="column-box__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po&shy;suere. Pel&shy;lentesque vel lacus eget nisi convallis auctor. Nam </p>
 					<p><a href="#" class="column-box__button">READ MORE</a></p>
 				</div>
-				<div class="column-box column-box--set_margin_right_0px">
+				<div class="column-box column-box--set_margin_column3">
 					<a href="#" class="column-box__icon column-box__icon--music"></a>
 					<p class="column-box__title">ABOUT OUR COMPANY</p>
 					<p class="column-box__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po&shy;suere. Pel&shy;lentesque vel lacus eget nisi convallis auctor. Nam </p>
@@ -155,12 +160,12 @@
 			<section class="brands-logos">
 				<div class="base-box">
 					<div class="brands-logos__list">
-						<a href="#" class="logo0" title="BuaBong"></a>
+						<a href="#" class="logo0" title="BUABONG"></a>
 						<a href="#" class="logo1" title="DC"></a>
 						<a href="#" class="logo2" title="I"></a>
 						<a href="#" class="logo3" title="AWSM"></a>
 						<a href="#" class="logo4" title="RVCA"></a>
-						<a href="#" class="logo5" title="VonZipper"></a>
+						<a href="#" class="logo5" title="VONZIPPER"></a>
 					</div>
 				</div>
 			</section>
@@ -198,7 +203,7 @@
 
 <!-- ==========================   FOOTER   ========================== -->
 		<footer class="footer">
-			<div class="base-box">
+			<div class="base-box base-box--footer">
 				<ul class="menu menu--footer">
 					<li class="menu__item">
 						<a href="#" class="menu__link">HOME</a>
